@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Campus Safety to report a concern or ask a question.">
+  <title>Contact | Campus Safety</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="brand"><a href="index.html">Campus Safety</a></p>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="safety-tips.html">Safety Tips</a></li>
+          <li><a href="resources.html">Help on Campus</a></li>
+          <li><a href="alerts.html">Alerts</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-title">
+      <h1>Contact Campus Safety</h1>
+      <p class="lead">Report a concern, ask a question, or suggest an improvement. In an emergency, call 911 instead.</p>
+    </section>
+
+    <section class="section contact-layout">
+      <form class="form" action="#" method="post">
+        <h2>Send a message</h2>
+
+        <div class="field">
+          <label for="name">Full name <span class="req">(required)</span></label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">School email <span class="req">(required)</span></label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="field">
+          <label for="topic">What is this about?</label>
+          <select id="topic" name="topic">
+            <option value="concern">Report a safety concern</option>
+            <option value="escort">Night escort question</option>
+            <option value="repair">Broken light or lock</option>
+            <option value="alerts">Sign up for alerts</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell us what happened, where, and when."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send message</button>
+      </form>
+
+      <aside class="contact-side">
+        <article class="card">
+          <h2>Other ways to reach us</h2>
+          <p><strong>Security desk (24/7)</strong><br>285242011</p>
+          <p><strong>Email</strong><br>adamson.edu.ph</p>
+          <p><strong>Walk in</strong><br>Main Gate Office, beside the guard house</p>
+        </article>
+        <article class="card card-alert">
+          <h2>Danger right now?</h2>
+          <p>Do not use this form. Call 911.</p>
+        </article>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <section>
+        <h2>In an emergency</h2>
+        <p class="footer-big">Call 911</p>
+        <p>Then call the Campus Security desk at (02) 8000-0000.</p>
+      </section>
+      <section>
+        <h2>Explore</h2>
+        <ul class="footer-links">
+          <li><a href="safety-tips.html">Safety Tips</a></li>
+          <li><a href="resources.html">Help on Campus</a></li>
+          <li><a href="alerts.html">Alerts</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>About this site</h2>
+        <p>An individual student project for the HTML5 Forms &amp; Multimedia course. All text and images are original.</p>
+      </section>
+    </div>
+    <p class="copyright">&copy; 2026 Campus Safety</p>
+  </footer>
+</body>
+</html>
